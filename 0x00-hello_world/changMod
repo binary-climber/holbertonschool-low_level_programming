@@ -1,0 +1,3 @@
+#!/bin/bash
+read archivo 
+chmod u+x $archivo
