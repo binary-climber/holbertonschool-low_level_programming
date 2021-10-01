@@ -1,12 +1,14 @@
+/*
+ * describing the programm
+ */
 #include <stdio.h>
 
-/**
- *
+/*
  * print but with with puts
  */
 int main(void)
 {
-	char name[] = "\"Programming is like building a multilingual puzzle";
-	puts(name);
+	puts("\"Programming is like building a multilingual pu\
+zzle");
 	return (0);
 }
