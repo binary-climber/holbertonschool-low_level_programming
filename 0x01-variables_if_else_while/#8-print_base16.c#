@@ -3,11 +3,11 @@
  *
  */int main(void)
 {
+	char c[] = "0123456789abcdef";
 	int i;
 
-	for (i = 0; i <= 9; i++)
-		putchar(i);
+	for (i = 0; i <= 15; i++)
+		putchar(c[i]);
 	putchar('\n');
-
 	return (0);
 }

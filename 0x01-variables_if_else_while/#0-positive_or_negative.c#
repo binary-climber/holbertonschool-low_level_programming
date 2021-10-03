@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/*
+ *
+ * random and more
+ *
+ */int main(void)
+{
+	int n;
+	srand(time(0));
+	
+	n = rand();
+	printf("%d\n", n);
+	return (0);
+}
