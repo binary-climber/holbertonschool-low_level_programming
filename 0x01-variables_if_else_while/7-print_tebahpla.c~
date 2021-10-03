@@ -1,14 +1,15 @@
 #include <stdio.h>
 /*
- *alphabet
+ *
+ * more alpha
+ *
  */
 int main(void)
 {
-	char alp;
+	char c;
 
-	for (alp = 'a'; alp <= 'z'; alp++)
-		putchar(alp);
-
+	for (c = 'z'; c >= 'a'; c--)
+		putchar(c);
 	putchar('\n');
 
 	return (0);
