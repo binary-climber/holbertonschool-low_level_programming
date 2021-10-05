@@ -1,5 +1,14 @@
 #include "main.h"
 
+/**
+ *Print Alphabet
+ *Return: 0
+ */
+void print_alphabet(void)
+{
+	int i;
 
-
-void print_alphabet(void) /*? esta es la forma de llamar */
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
+	_putchar('\n');
+}
