@@ -14,4 +14,9 @@ int _putchar(char c);
 /* print the alphabet*/
 void print_alphabet(void);
 
+/* print 10 time */
+void print_alphabet_x10(void);
+
+
+
 #endif
