@@ -1,0 +1,16 @@
+#include "main.h"
+/*
+ * lowercase
+ *
+ */int _islower(int c)
+{
+	if ( _islower(c)q
+	       )
+	{
+		return (0);
+	}
+	else
+	{
+		return (1);
+	}
+}
