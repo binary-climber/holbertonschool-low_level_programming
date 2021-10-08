@@ -15,7 +15,10 @@
 			putchar(' ');
 		}
 		else
+		{
 			putchar('9');
+			putchar(' ');
+		}
 	}
 	 return (0);
 
