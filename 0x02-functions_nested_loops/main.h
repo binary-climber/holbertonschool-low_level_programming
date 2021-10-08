@@ -7,8 +7,7 @@ is to enclose the entire real contents of the file in a conditional, like this â
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
-#include <ctype.h>
+
 /* _putchar*/
 int _putchar(char c);
 
