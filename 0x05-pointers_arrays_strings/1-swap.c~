@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * swap_int - swaps numbers
+ * @a: pointer of number 1
+ * @b: pointer of number 2
+ *
+ */
+
+void swap_int(int *a, int *b)
+{
+	*a = b;
+	*b = a;
+}
